@@ -94,17 +94,17 @@
 
 
 
-<meta name="description" content="##Hexo ###InstallationTo install hexo, first you need to install node.js and git.The best way to install node.js is using Node Version Manager. To install nvm, use the following command:    $ wget -qO">
+<meta name="description" content="HexoInstallationTo install hexo, first you need to install node.js and git.The best way to install node.js is using Node Version Manager. To install nvm, use the following command:$ wget -qO- https://">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用Hexo在Github上搭建博客">
 <meta property="og:url" content="http://yoursite.com/2017/08/21/利用Hexo在Github上搭建博客/index.html">
 <meta property="og:site_name" content="Chaoyi&#39;s note">
-<meta property="og:description" content="##Hexo ###InstallationTo install hexo, first you need to install node.js and git.The best way to install node.js is using Node Version Manager. To install nvm, use the following command:    $ wget -qO">
+<meta property="og:description" content="HexoInstallationTo install hexo, first you need to install node.js and git.The best way to install node.js is using Node Version Manager. To install nvm, use the following command:$ wget -qO- https://">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-08-22T14:04:29.404Z">
+<meta property="og:updated_time" content="2017-08-22T14:10:33.843Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用Hexo在Github上搭建博客">
-<meta name="twitter:description" content="##Hexo ###InstallationTo install hexo, first you need to install node.js and git.The best way to install node.js is using Node Version Manager. To install nvm, use the following command:    $ wget -qO">
+<meta name="twitter:description" content="HexoInstallationTo install hexo, first you need to install node.js and git.The best way to install node.js is using Node Version Manager. To install nvm, use the following command:$ wget -qO- https://">
 
 
 
@@ -329,9 +329,11 @@
       
 
       
-        <p>##Hexo</p>
-<p>###Installation<br>To install hexo, first you need to install node.js and git.<br>The best way to install node.js is using Node Version Manager. To install nvm, use the following command:<br>    $ wget -qO- <a href="https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh" target="_blank" rel="external">https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh</a> | bash<br>Then use the following command to install node.js:<br>    $ nvm install stable<br>To install git, simply run<br>    $ sudo dnf install git-core<br>Once the above two requirements are installed, run the following commands to install hexo:<br>    $ npm install -g hexo-cli</p>
-<p>###Initialise a site<br>    $ hexo init <site_title><br>    $ cd <site_title><br>    $ npm install<br>After initialization, the folder &lt;site_title&gt; will be created and contains the following files:</site_title></site_title></p>
+        <h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>To install hexo, first you need to install node.js and git.<br>The best way to install node.js is using Node Version Manager. To install nvm, use the following command:<br><code>$ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash</code><br>Then use the following command to install node.js:<br><code>$ nvm install stable</code><br>To install git, simply run<br><code>$ sudo dnf install git-core</code><br>Once the above two requirements are installed, run the following commands to install hexo:<br><code>$ npm install -g hexo-cli</code></p>
+<h3 id="Initialise-a-site"><a href="#Initialise-a-site" class="headerlink" title="Initialise a site"></a>Initialise a site</h3><pre><code>$ hexo init &lt;site_title&gt;
+$ cd &lt;site_title&gt;
+$ npm install
+</code></pre><p>After initialization, the folder &lt;site_title&gt; will be created and contains the following files:</p>
 
       
     </div>
@@ -416,8 +418,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -461,6 +472,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">1.</span> <span class="nav-text">Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Installation"><span class="nav-number">1.1.</span> <span class="nav-text">Installation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Initialise-a-site"><span class="nav-number">1.2.</span> <span class="nav-text">Initialise a site</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
